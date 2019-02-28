@@ -1,0 +1,80 @@
+From 82978cebe04a9a6986506bd9b316a09b052d9a54 Mon Sep 17 00:00:00 2001
+From: wlx <wanglixins@163.com>
+Date: Thu, 28 Feb 2019 22:19:45 +0800
+Subject: [PATCH] Change Admin.java
+
+---
+ Action.java |  2 ++
+ Admin.java  |  1 +
+ Hello.java  |  1 +
+ patch       | 24 ++++++++++++++++++++++++
+ 4 files changed, 28 insertions(+)
+ create mode 100644 patch
+
+diff --git a/Action.java b/Action.java
+index 554468f..afac559 100644
+--- a/Action.java
++++ b/Action.java
+@@ -1,4 +1,6 @@
+ public class Action{
+     private String url ;
+     private String title ;
++    private Integer aid ;
++    private Vote vote = new Vote() ;
+ }
+\ No newline at end of file
+diff --git a/Admin.java b/Admin.java
+index f1fbc98..b4d2837 100644
+--- a/Admin.java
++++ b/Admin.java
+@@ -1,3 +1,4 @@
+ public class Admin {
+     private List<Emp> emps;
++    private String aid ;
+ }
+\ No newline at end of file
+diff --git a/Hello.java b/Hello.java
+index 3d68839..fcd11dc 100644
+--- a/Hello.java
++++ b/Hello.java
+@@ -11,5 +11,6 @@ public Hello{
+         Systrm.out.println("滚去学习！");
+         Date date = new Date() ;
+         System.out.println("啦啦啦！");
++        System.out.println("好好学习");
+         }
+ }
+\ No newline at end of file
+diff --git a/patch b/patch
+new file mode 100644
+index 0000000..bc5f125
+--- /dev/null
++++ b/patch
+@@ -0,0 +1,24 @@
++diff --git a/Action.java b/Action.java
++index 554468f..afac559 100644
++--- a/Action.java
+++++ b/Action.java
++@@ -1,4 +1,6 @@
++ public class Action{
++     private String url ;
++     private String title ;
+++    private Integer aid ;
+++    private Vote vote = new Vote() ;
++ }
++\ No newline at end of file
++diff --git a/Hello.java b/Hello.java
++index 3d68839..fcd11dc 100644
++--- a/Hello.java
+++++ b/Hello.java
++@@ -11,5 +11,6 @@ public Hello{
++         Systrm.out.println("滚去学习！");
++         Date date = new Date() ;
++         System.out.println("啦啦啦！");
+++        System.out.println("好好学习");
++         }
++ }
++\ No newline at end of file
+-- 
+2.9.0.windows.1
+
