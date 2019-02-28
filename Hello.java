@@ -4,5 +4,7 @@ public Hello{
         System.out.println("hello word!");
         System.out.println("你好，世界！");
         System.out.println("git...");
+        Admin admin = new Admin();
+        Emp emp = new Emp() ;
         }
 }
