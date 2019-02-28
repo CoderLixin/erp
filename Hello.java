@@ -11,5 +11,6 @@ public Hello{
         Systrm.out.println("滚去学习！");
         Date date = new Date() ;
         System.out.println("啦啦啦！");
+        System.out.println("好好学习");
         }
 }

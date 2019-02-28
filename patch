@@ -1,0 +1,24 @@
+diff --git a/Action.java b/Action.java
+index 554468f..afac559 100644
+--- a/Action.java
++++ b/Action.java
+@@ -1,4 +1,6 @@
+ public class Action{
+     private String url ;
+     private String title ;
++    private Integer aid ;
++    private Vote vote = new Vote() ;
+ }
+\ No newline at end of file
+diff --git a/Hello.java b/Hello.java
+index 3d68839..fcd11dc 100644
+--- a/Hello.java
++++ b/Hello.java
+@@ -11,5 +11,6 @@ public Hello{
+         Systrm.out.println("滚去学习！");
+         Date date = new Date() ;
+         System.out.println("啦啦啦！");
++        System.out.println("好好学习");
+         }
+ }
+\ No newline at end of file
