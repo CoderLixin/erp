@@ -3,4 +3,5 @@ public class Action{
     private String title ;
     private Integer aid ;
     private Vote vote = new Vote() ;
+    private List<Action> action ;
 }
